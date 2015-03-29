@@ -49,6 +49,11 @@ blockquote {
 .jumbotron p {
   font-size: 32px;
 }
+.jumbotron a.btn.btn-primary,
+.jumbotron button.btn.btn-primary,
+.jumbotron input.btn.btn-primary {
+  background-color: #000000;
+}
 .page-header {
   margin: -32px auto 0 auto;
   padding: 0;
