@@ -16,6 +16,18 @@ a:focus {
   color: #ffff00;
   border-bottom: 1px dashed #ffff00;
 }
+.text-success {
+  color: #00ff00;
+}
+.text-info {
+  color: #00ffff;
+}
+.text-warning {
+  color: #ff7700;
+}
+.text-danger {
+  color: #ff0000;
+}
 h1,
 h2,
 h3,
@@ -59,6 +71,9 @@ blockquote {
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
+}
+hr {
+  border-color: #ff0000;
 }
 @font-face {
   font-family: 'Teletext regular Regular';
