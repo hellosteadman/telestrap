@@ -416,7 +416,7 @@ input.btn.btn-link {
   background-color: #ff0000;
   border-color: #ff0000;
 }
-.progress .progress-bar-striped {
+.progress.progress-striped .progress-bar {
   background-image: -webkit-linear-gradient(90deg, #000000 25%, transparent 25%, transparent 50%, #000000 50%, #000000 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(90deg, #000000 25%, transparent 25%, transparent 50%, #000000 50%, #000000 75%, transparent 75%, transparent);
   background-image: linear-gradient(90deg, #000000 25%, transparent 25%, transparent 50%, #000000 50%, #000000 75%, transparent 75%, transparent);
@@ -549,6 +549,16 @@ pre {
   border-radius: 0;
   background-clip: padding-box;
 }
+.pager > li.disabled a {
+  background: transparent;
+  color: #333;
+}
+.pager > li.disabled a:hover,
+.pager > li.disabled a:focus {
+  background: transparent;
+  color: #333;
+  border-color: #ffffff;
+}
 .pager > li > a {
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -559,4 +569,52 @@ pre {
 .pager > li > a:hover {
   background: transparent;
   border-color: #ffff00;
+}
+.pagination > li:first-child a {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-top-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+}
+.pagination > li:last-child a {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+}
+.pagination > li > a {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: 1px dashed #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+.pagination > li > a:hover,
+.pagination > li > a:focus {
+  background: transparent;
+  border-color: #ffff00;
+  color: #ffff00;
+}
+.pagination > li.disabled a {
+  background: transparent;
+  color: #333;
+}
+.pagination > li.disabled a:hover,
+.pagination > li.disabled a:focus {
+  background: transparent;
+  color: #333;
+}
+.pagination > li.active a {
+  background: #0000ff;
+  color: #ffffff;
+}
+.pagination > li.active a:hover,
+.pagination > li.active a:focus {
+  background: #0000ff;
+  color: #ffff00;
 }

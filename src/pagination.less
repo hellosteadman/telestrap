@@ -1,5 +1,16 @@
 .pager {
     > li {
+        &.disabled a {
+            background: transparent;
+            color: #333;
+
+            &:hover, &:focus {
+                background: transparent;
+                color: #333;
+                border-color: @text;
+            }
+        }
+
         > a {
             .border-radius(0);
             border: 1px dashed @text;
@@ -8,6 +19,65 @@
             &:hover {
                 background: transparent;
                 border-color: @link;
+            }
+        }
+    }
+}
+
+.pagination {
+    > li {
+        &:first-child a {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            -moz-border-top-left-radius: 0;
+            -moz-border-bottom-left-radius: 0;
+            -webkit-border-top-left-radius: 0;
+            -webkit-border-bottom-left-radius: 0;
+        }
+
+        &:last-child a {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            -moz-border-top-right-radius: 0;
+            -moz-border-bottom-right-radius: 0;
+            -webkit-border-top-right-radius: 0;
+            -webkit-border-bottom-right-radius: 0;
+        }
+
+        > a {
+            .border-radius(0);
+            border: 1px dashed @text;
+            background: transparent;
+            color: @primary-text;
+
+            &:hover, &:focus {
+                background: transparent;
+                border-color: @link;
+                color: @link;
+            }
+        }
+
+        &.disabled {
+            a {
+                background: transparent;
+                color: #333;
+
+                &:hover, &:focus {
+                    background: transparent;
+                    color: #333;
+                }
+            }
+        }
+
+        &.active {
+            a {
+                background: @primary-background;
+                color: @primary-text;
+
+                &:hover, &:focus {
+                    background: @primary-background;
+                    color: @link;
+                }
             }
         }
     }
