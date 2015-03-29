@@ -128,6 +128,30 @@
     }
 }
 
+.nav-pills {
+    > li > a {
+        .border-radius(0);
+    }
+    
+    .open {
+        > a, > a:focus, > a:hover {
+            border-bottom-width: 0;
+            color: @screen;
+        }
+
+        .dropdown-menu {
+            > li > a {
+                color: @screen;
+            }
+
+            > li.divider {
+                background: @screen;
+                height: 5px;
+            }
+        }
+    }
+}
+
 .dropdown-menu {
     .box-shadow(none);
     .border-radius(0);
