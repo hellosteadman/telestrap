@@ -43,8 +43,8 @@ blockquote {
   text-align: center;
 }
 .jumbotron h1 {
-  margin-top: 0;
   font-size: 128px;
+  line-height: 1em;
 }
 .jumbotron p {
   font-size: 32px;
