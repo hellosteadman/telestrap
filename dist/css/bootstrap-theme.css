@@ -329,6 +329,34 @@ input.btn.btn-link {
 .table.table-striped > tbody > tr:nth-of-type(odd) {
   background: #000000;
 }
+.table.table-hover > tbody > tr:hover {
+  background-color: transparent;
+}
+.table.table-hover > tbody tr.info th,
+.table.table-hover > tbody tr.info td {
+  background: #00ffff;
+  color: #000000;
+}
+.table.table-hover > tbody tr.success th,
+.table.table-hover > tbody tr.success td {
+  background: #00ff00;
+  color: #000000;
+}
+.table.table-hover > tbody tr.warning th,
+.table.table-hover > tbody tr.warning td {
+  background: #ff7700;
+  color: #ffffff;
+}
+.table.table-hover > tbody tr.danger th,
+.table.table-hover > tbody tr.danger td {
+  background: #ff0000;
+  color: #ffffff;
+}
+.table.table-hover > tbody tr.active th,
+.table.table-hover > tbody tr.active td {
+  background: #0000ff;
+  color: #ffffff;
+}
 .badge {
   -webkit-border-radius: 0;
   border-radius: 0;

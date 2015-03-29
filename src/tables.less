@@ -32,4 +32,47 @@
             background: @screen;
         }
     }
+
+    &.table-hover {
+        > tbody > tr:hover {
+            background-color: transparent;
+        }
+
+        > tbody tr {
+            &.info {
+                th, td {
+                    background: @info-background;
+                    color: @info-text;
+                }
+            }
+
+            &.success {
+                th, td {
+                    background: @success-background;
+                    color: @success-text;
+                }
+            }
+
+            &.warning {
+                th, td {
+                    background: @warning-background;
+                    color: @warning-text;
+                }
+            }
+
+            &.danger {
+                th, td {
+                    background: @danger-background;
+                    color: @danger-text;
+                }
+            }
+
+            &.active {
+                th, td {
+                    background: @primary-background;
+                    color: @primary-text;
+                }
+            }
+        }
+    }
 }
