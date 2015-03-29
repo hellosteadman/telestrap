@@ -1,0 +1,70 @@
+.panel {
+    .border-radius(0);
+    background: @screen;
+    border: 1px solid @text;
+
+    .panel-heading {
+        background: @screen;
+        border-width: 0;
+    }
+
+    .panel-title {
+        color: @text;
+    }
+
+    &.panel-primary {
+        border-color: @primary-background;
+
+        .panel-heading {
+            background: @primary-background;
+        }
+    }
+
+    &.panel-success {
+        border-color: @success-background;
+
+        .panel-heading {
+            background: @success-background;
+
+            .panel-title {
+                color: @success-text;
+            }
+        }
+    }
+
+    &.panel-info {
+        border-color: @info-background;
+
+        .panel-heading {
+            background: @info-background;
+
+            .panel-title {
+                color: @info-text;
+            }
+        }
+    }
+
+    &.panel-warning {
+        border-color: @warning-background;
+
+        .panel-heading {
+            background: @warning-background;
+
+            .panel-title {
+                color: @warning-text;
+            }
+        }
+    }
+
+    &.panel-danger {
+        border-color: @danger-background;
+
+        .panel-heading {
+            background: @danger-background;
+
+            .panel-title {
+                color: @danger-text;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.list-group {
+    .list-group-item {
+        background: @screen;
+        border: 1px dashed @text;
+
+        &:first-child {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            -moz-border-top-left-radius: 0;
+            -moz-border-top-right-radius: 0;
+            -webkit-border-top-left-radius: 0;
+            -webkit-border-top-right-radius: 0;
+        }
+
+        &:last-child {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            -moz-border-bottom-left-radius: 0;
+            -moz-border-bottom-right-radius: 0;
+            -webkit-border-bottom-left-radius: 0;
+            -webkit-border-bottom-right-radius: 0;
+        }
+
+        &.active, &.active:focus, &.active:hover {
+            background: @primary;
+        }
+    }
+
+    a.list-group-item:focus, a.list-group-item:hover {
+        background: transparent;
+        color: @link;
+
+        &.active {
+            border: 1px dashed @link;
+        }
+
+        .list-group-item-text {
+            color: #333;
+        }
+    }
+}

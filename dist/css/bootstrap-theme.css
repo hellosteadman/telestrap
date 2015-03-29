@@ -1,0 +1,466 @@
+body {
+  background: #000000;
+  color: #ffffff;
+}
+.jumbotron {
+  background: #0000ff;
+}
+.jumbotron h1 {
+  color: #ffff00;
+}
+a {
+  color: #ffff00;
+}
+a:hover,
+a:focus {
+  color: #ffff00;
+  border-bottom: 1px dashed #ffff00;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+blockquote {
+  line-height: 1.5em;
+}
+.jumbotron {
+  text-align: center;
+}
+.jumbotron h1 {
+  margin-top: 0;
+  font-size: 128px;
+}
+.jumbotron p {
+  font-size: 32px;
+}
+.page-header {
+  margin: -32px auto 0 auto;
+  padding: 0;
+  border-bottom: none;
+}
+.page-header:before {
+  content: " ";
+  height: 16px;
+  background: #0000ff;
+  display: block;
+  position: relative;
+  top: 64px;
+  z-index: 10;
+}
+.page-header h1 {
+  color: #ffff00;
+  position: relative;
+  z-index: 20;
+  padding-left: 16px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+}
+@font-face {
+  font-family: 'Teletext regular Regular';
+  src: url('../fonts/teletext_regular.eot?') format('eot'), url('../fonts/teletext_regular.woff') format('woff'), url('../fonts/teletext_regular.ttf') format('truetype'), url('../fonts/teletext_regular.svg#Teletext-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Teletext regular Regular';
+}
+h1 {
+  font-size: 64px;
+  font-weight: normal;
+}
+.navbar-default {
+  background: #ffffff;
+}
+.navbar-default a.navbar-brand {
+  color: #000000;
+}
+.navbar-default .navbar-nav {
+  font-size: 16px;
+}
+.navbar-default .navbar-nav li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav li.active > a {
+  background: #ffff00;
+}
+.navbar-default .navbar-nav li > .dropdown-menu {
+  margin-top: 1px;
+}
+.navbar-default .navbar-nav li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav li > .dropdown-menu > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav li.divider {
+  background-color: #000;
+}
+.navbar-default .navbar-nav .open > a,
+.navbar-default .navbar-nav .open > a:focus,
+.navbar-default .navbar-nav .open > a:hover {
+  background: #ddd;
+  border-bottom-width: 0;
+}
+.navbar-inverse {
+  background: #000;
+}
+.navbar-inverse a.navbar-brand {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav {
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav li.active a {
+  color: #ffff00;
+}
+.navbar-inverse .navbar-nav li > .dropdown-menu {
+  margin-top: 0;
+  border-width: 0;
+  background: #000;
+}
+.navbar-inverse .navbar-nav li > .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav li > .dropdown-menu > li.divider {
+  background-color: #fff;
+}
+.navbar-inverse .open > a,
+.navbar-inverse .open > a:focus,
+.navbar-inverse .open > a:hover {
+  border-bottom-width: 0;
+}
+.nav > li a,
+.nav > li a:focus,
+.nav > li a:hover {
+  background: transparent;
+  color: #ffffff;
+}
+.nav > li.active a,
+.nav > li.active a:focus,
+.nav > li.active a:hover {
+  background: transparent;
+  color: #ffff00;
+}
+.nav.nav-tabs {
+  border-bottom: 1px dashed #ffff00;
+}
+.nav.nav-tabs > li > a {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+}
+.nav.nav-tabs > li > a,
+.nav.nav-tabs > li > a:focus,
+.nav.nav-tabs > li > a:hover {
+  background: transparent;
+  color: #ffff00;
+}
+.nav.nav-tabs > li > a:hover,
+.nav.nav-tabs > li > a:focus {
+  border: 1px dashed #ffff00;
+}
+.nav.nav-tabs > li.active a {
+  border: 1px dashed #ffff00;
+}
+.dropdown-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: 5px solid #000;
+  border-top-width: 0;
+  margin-left: -5px;
+}
+.dropdown-menu li.divider {
+  height: 5px;
+}
+a.btn,
+button.btn,
+input.btn {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+}
+a.btn.btn-default,
+button.btn.btn-default,
+input.btn.btn-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+a.btn.btn-primary,
+button.btn.btn-primary,
+input.btn.btn-primary {
+  background-color: #0000ff;
+  border-color: #0000ff;
+  color: #ffffff;
+}
+a.btn.btn-success,
+button.btn.btn-success,
+input.btn.btn-success {
+  background-color: #00ff00;
+  border-color: #00ff00;
+  color: #000000;
+}
+a.btn.btn-info,
+button.btn.btn-info,
+input.btn.btn-info {
+  background-color: #00ffff;
+  border-color: #00ffff;
+  color: #000000;
+}
+a.btn.btn-warning,
+button.btn.btn-warning,
+input.btn.btn-warning {
+  background-color: #ff7700;
+  border-color: #ff7700;
+  color: #ffffff;
+}
+a.btn.btn-danger,
+button.btn.btn-danger,
+input.btn.btn-danger {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: #ffffff;
+}
+a.btn.btn-link,
+button.btn.btn-link,
+input.btn.btn-link {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffff00;
+}
+.label {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+}
+.label.label-default {
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+.label.label-primary {
+  background-color: transparent;
+  border-bottom: 1px solid #0000ff;
+  color: #ffffff;
+}
+.label.label-success {
+  background-color: transparent;
+  border-bottom: 1px solid #00ff00;
+  color: #ffffff;
+}
+.label.label-info {
+  background-color: transparent;
+  border-bottom: 1px solid #00ffff;
+  color: #ffffff;
+}
+.label.label-warning {
+  background-color: transparent;
+  border-bottom: 1px solid #ff7700;
+  color: #ffffff;
+}
+.label.label-danger {
+  background-color: transparent;
+  border-bottom: 1px solid #ff0000;
+  color: #ffffff;
+}
+.table > thead > tr > th {
+  border-bottom: 1px dashed #ffffff;
+}
+.table > tbody > tr > td,
+.table > tfoot > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > th {
+  border-top: 1px dashed #ffffff;
+}
+.table.table-bordered {
+  border: 1px dashed #ffffff;
+}
+.table.table-bordered > thead > tr > th {
+  border-bottom-width: 0;
+}
+.table.table-bordered > thead > tr > td,
+.table.table-bordered > tbody > tr > td,
+.table.table-bordered > tfoot > tr > td,
+.table.table-bordered > thead > tr > th,
+.table.table-bordered > tbody > tr > th,
+.table.table-bordered > tfoot > tr > th {
+  border: 1px dashed #ffffff;
+}
+.table.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #000000;
+}
+.badge {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+.alert {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+}
+.alert.alert-success {
+  background-color: #00ff00;
+  border-color: #00ff00;
+  color: #000000;
+}
+.alert.alert-info {
+  background-color: #00ffff;
+  border-color: #00ffff;
+  color: #000000;
+}
+.alert.alert-warning {
+  background-color: #ff7700;
+  border-color: #ff7700;
+  color: #ffffff;
+}
+.alert.alert-danger {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: #ffffff;
+}
+.progress {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  background: #000000;
+}
+.progress .progress-bar {
+  background-color: #0000ff;
+  border-color: #0000ff;
+}
+.progress .progress-bar-success {
+  background-color: #00ff00;
+  border-color: #00ff00;
+}
+.progress .progress-bar-info {
+  background-color: #00ffff;
+  border-color: #00ffff;
+}
+.progress .progress-bar-warning {
+  background-color: #ff7700;
+  border-color: #ff7700;
+}
+.progress .progress-bar-danger {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+.progress .progress-bar-striped {
+  background-image: -webkit-linear-gradient(90deg, #000000 25%, transparent 25%, transparent 50%, #000000 50%, #000000 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(90deg, #000000 25%, transparent 25%, transparent 50%, #000000 50%, #000000 75%, transparent 75%, transparent);
+  background-image: linear-gradient(90deg, #000000 25%, transparent 25%, transparent 50%, #000000 50%, #000000 75%, transparent 75%, transparent);
+}
+.list-group .list-group-item {
+  background: #000000;
+  border: 1px dashed #ffffff;
+}
+.list-group .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-top-left-radius: 0;
+  -moz-border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+}
+.list-group .list-group-item:last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+}
+.list-group .list-group-item.active,
+.list-group .list-group-item.active:focus,
+.list-group .list-group-item.active:hover {
+  background: #0000ff;
+}
+.list-group a.list-group-item:focus,
+.list-group a.list-group-item:hover {
+  background: transparent;
+  color: #ffff00;
+}
+.list-group a.list-group-item:focus.active,
+.list-group a.list-group-item:hover.active {
+  border: 1px dashed #ffff00;
+}
+.list-group a.list-group-item:focus .list-group-item-text,
+.list-group a.list-group-item:hover .list-group-item-text {
+  color: #333;
+}
+.panel {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  background: #000000;
+  border: 1px solid #ffffff;
+}
+.panel .panel-heading {
+  background: #000000;
+  border-width: 0;
+}
+.panel .panel-title {
+  color: #ffffff;
+}
+.panel.panel-primary {
+  border-color: #0000ff;
+}
+.panel.panel-primary .panel-heading {
+  background: #0000ff;
+}
+.panel.panel-success {
+  border-color: #00ff00;
+}
+.panel.panel-success .panel-heading {
+  background: #00ff00;
+}
+.panel.panel-success .panel-heading .panel-title {
+  color: #000000;
+}
+.panel.panel-info {
+  border-color: #00ffff;
+}
+.panel.panel-info .panel-heading {
+  background: #00ffff;
+}
+.panel.panel-info .panel-heading .panel-title {
+  color: #000000;
+}
+.panel.panel-warning {
+  border-color: #ff7700;
+}
+.panel.panel-warning .panel-heading {
+  background: #ff7700;
+}
+.panel.panel-warning .panel-heading .panel-title {
+  color: #ffffff;
+}
+.panel.panel-danger {
+  border-color: #ff0000;
+}
+.panel.panel-danger .panel-heading {
+  background: #ff0000;
+}
+.panel.panel-danger .panel-heading .panel-title {
+  color: #ffffff;
+}
+.well {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  background: #ffffff;
+  color: #000000;
+}

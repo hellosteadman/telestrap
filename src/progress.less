@@ -1,0 +1,35 @@
+.progress {
+    .border-radius(0);
+    background: @screen;
+
+    .progress-bar {
+        background-color: @primary-background;
+        border-color: @primary-background;
+    }
+
+    .progress-bar-success {
+        background-color: @success-background;
+        border-color: @success-background;
+    }
+
+    .progress-bar-info {
+        background-color: @info-background;
+        border-color: @info-background;
+    }
+
+    .progress-bar-warning {
+        background-color: @warning-background;
+        border-color: @warning-background;
+    }
+
+    .progress-bar-danger {
+        background-color: @danger-background;
+        border-color: @danger-background;
+    }
+
+    .progress-bar-striped {
+        background-image: -webkit-linear-gradient(90deg, @screen 25%, transparent 25%, transparent 50%, @screen 50%, @screen 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(90deg, @screen 25%, transparent 25%, transparent 50%, @screen 50%, @screen 75%, transparent 75%, transparent);
+        background-image: linear-gradient(90deg, @screen 25%, transparent 25%, transparent 50%, @screen 50%, @screen 75%, transparent 75%, transparent);
+    }
+}
