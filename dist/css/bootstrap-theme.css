@@ -479,3 +479,14 @@ input.btn.btn-link {
   background: #ffffff;
   color: #000000;
 }
+.form-control {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  background: #333;
+  color: #ffffff;
+  border-width: 0;
+}
+.form-control:focus {
+  outline: none;
+}
