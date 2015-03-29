@@ -1,0 +1,9 @@
+.breadcrumb {
+    .border-radius(0);
+    background: #333;
+    color: @text;
+
+    > li + li::before {
+        content: " > ";
+    }
+}

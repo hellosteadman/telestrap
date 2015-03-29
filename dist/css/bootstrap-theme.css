@@ -636,3 +636,13 @@ pre {
   background: #0000ff;
   color: #ffff00;
 }
+.breadcrumb {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  background: #333;
+  color: #ffffff;
+}
+.breadcrumb > li + li::before {
+  content: " > ";
+}
