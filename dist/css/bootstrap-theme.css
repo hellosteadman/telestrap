@@ -501,6 +501,7 @@ pre {
   -webkit-border-radius: 0;
   border-radius: 0;
   background-clip: padding-box;
+  border-width: 0;
 }
 .carousel-caption {
   text-shadow: none;
@@ -509,4 +510,15 @@ pre {
   -webkit-border-radius: 0;
   border-radius: 0;
   background-clip: padding-box;
+}
+.pager > li > a {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-clip: padding-box;
+  border: 1px dashed #ffffff;
+  background: transparent;
+}
+.pager > li > a:hover {
+  background: transparent;
+  border-color: #ffff00;
 }
