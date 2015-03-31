@@ -6,8 +6,27 @@ h1, h2, h3, h4, h5, h6, p, li, blockquote {
     text-align: center;
 
     h1 {
-        font-size: 128px;
         line-height: 1em;
+        /* Small devices (tablets, 768px and up) */
+        @media (min-width: @screen-sm-min) {
+            font-size: 64px;
+            -ms-word-break: break-all;
+            word-break: break-all;
+            word-break: break-word;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            hyphens: auto;
+        }
+
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: @screen-md-min) {
+            font-size: 96px;
+        }
+
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: @screen-lg-min) {
+            font-size: 128px;
+        }
     }
 
     p {
