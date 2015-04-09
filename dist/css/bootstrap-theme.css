@@ -43,8 +43,31 @@ blockquote {
   text-align: center;
 }
 .jumbotron h1 {
-  font-size: 128px;
   line-height: 1em;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+@media (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 64px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
+@media (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 96px;
+  }
+}
+@media (min-width: 1200px) {
+  .jumbotron h1 {
+    font-size: 128px;
+  }
 }
 .jumbotron p {
   font-size: 32px;
